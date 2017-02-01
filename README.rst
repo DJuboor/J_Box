@@ -1,16 +1,15 @@
-Juboor_Toolbox
+J_Box
 --------
 
-To use any of my tools, simply::
+To use any of these tools, simply::
 
-    >>> import Juboor_Toolbox as jt
+    >>> import J_Box as jb
 
-Currently, The only tool (PCA) is in ML.py file.
+Currently, this toolbox contains Audio (raw signal) pre-processing tools that can be used as precursors to
+	custom machine learning algorithms. 
 
-To use::
+To use a tool in this library::
 	
-	>>> Reduced_Data = jt.ML.PCA(data, # between 0-1)
-
-	The data is an N x M array with only numeric values. 
-		In order to reduce your data's dimensionality in either the Parameter
-		or sample space, try transposing your data.
+	Refer to the comments directly prior to the function definition. These functions should be well doccumented enough
+	to be usable for many different applications. If you have any comments or concerns or would like to contribute to this library,
+	please contact the primary editor.

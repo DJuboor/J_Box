@@ -55,5 +55,3 @@ def PCA(Matrix, Threshold):
 
 
 	return New_Data
-
-
